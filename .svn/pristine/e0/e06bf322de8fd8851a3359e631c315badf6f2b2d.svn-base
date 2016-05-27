@@ -1,0 +1,1431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		403B70A51CF2E09900B3DD31 /* 1111.png in Resources */ = {isa = PBXBuildFile; fileRef = 403B70A41CF2E09900B3DD31 /* 1111.png */; };
+		4058BEA31CF3F36300373FDB /* LoginHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4058BEA21CF3F36300373FDB /* LoginHomePageViewController.m */; };
+		406451AF1CE1B93600D07272 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 406451AE1CE1B93600D07272 /* main.m */; };
+		406451B51CE1B93600D07272 /* Telemedicine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 406451B31CE1B93600D07272 /* Telemedicine.xcdatamodeld */; };
+		406451BB1CE1B93600D07272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406451B91CE1B93600D07272 /* Main.storyboard */; };
+		406451BD1CE1B93600D07272 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406451BC1CE1B93600D07272 /* Images.xcassets */; };
+		406451C01CE1B93600D07272 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 406451BE1CE1B93600D07272 /* LaunchScreen.xib */; };
+		406451CC1CE1B93600D07272 /* TelemedicineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 406451CB1CE1B93600D07272 /* TelemedicineTests.m */; };
+		406451DD1CE1BE6900D07272 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 406451D71CE1BE6900D07272 /* AppDelegate.m */; };
+		406451E81CE1BF3900D07272 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406451E71CE1BF3900D07272 /* HomePageViewController.m */; };
+		406451EB1CE1BF5300D07272 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406451EA1CE1BF5300D07272 /* UserInfoViewController.m */; };
+		406451FA1CE1BF9E00D07272 /* G roup.png in Resources */ = {isa = PBXBuildFile; fileRef = 406451EE1CE1BF9E00D07272 /* G roup.png */; };
+		406451FB1CE1BF9E00D07272 /* Group 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 406451EF1CE1BF9E00D07272 /* Group 2.png */; };
+		406451FC1CE1BF9E00D07272 /* Group 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 406451F01CE1BF9E00D07272 /* Group 3.png */; };
+		406451FD1CE1BF9E00D07272 /* hangout-video.png in Resources */ = {isa = PBXBuildFile; fileRef = 406451F11CE1BF9E00D07272 /* hangout-video.png */; };
+		406451FE1CE1BF9E00D07272 /* Oval 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 406451F21CE1BF9E00D07272 /* Oval 1.png */; };
+		406451FF1CE1BF9E00D07272 /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = 406451F31CE1BF9E00D07272 /* person.png */; };
+		406452001CE1BF9E00D07272 /* Re ctangle 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 406451F41CE1BF9E00D07272 /* Re ctangle 3.png */; };
+		406452011CE1BF9E00D07272 /* Rectang le 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 406451F51CE1BF9E00D07272 /* Rectang le 3.png */; };
+		406452021CE1BF9E00D07272 /* Rectangle 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 406451F61CE1BF9E00D07272 /* Rectangle 3.png */; };
+		406452031CE1BF9E00D07272 /* Shap e.png in Resources */ = {isa = PBXBuildFile; fileRef = 406451F71CE1BF9E00D07272 /* Shap e.png */; };
+		406452041CE1BF9E00D07272 /* storage.png in Resources */ = {isa = PBXBuildFile; fileRef = 406451F81CE1BF9E00D07272 /* storage.png */; };
+		406452051CE1BF9E00D07272 /* timer.png in Resources */ = {isa = PBXBuildFile; fileRef = 406451F91CE1BF9E00D07272 /* timer.png */; };
+		406452391CE1BFDF00D07272 /* End Call Butt on.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452071CE1BFDF00D07272 /* End Call Butt on.png */; };
+		4064523A1CE1BFDF00D07272 /* F ill 2263.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452081CE1BFDF00D07272 /* F ill 2263.png */; };
+		4064523B1CE1BFDF00D07272 /* F ill 744.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452091CE1BFDF00D07272 /* F ill 744.png */; };
+		4064523C1CE1BFDF00D07272 /* Fill  1445.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064520A1CE1BFDF00D07272 /* Fill  1445.png */; };
+		4064523D1CE1BFDF00D07272 /* Fill 1429.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064520B1CE1BFDF00D07272 /* Fill 1429.png */; };
+		4064523E1CE1BFDF00D07272 /* Fill 143 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064520C1CE1BFDF00D07272 /* Fill 143 1.png */; };
+		4064523F1CE1BFDF00D07272 /* Fill 149.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064520D1CE1BFDF00D07272 /* Fill 149.png */; };
+		406452401CE1BFDF00D07272 /* Fill 2050.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064520E1CE1BFDF00D07272 /* Fill 2050.png */; };
+		406452411CE1BFDF00D07272 /* Fill 2317.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064520F1CE1BFDF00D07272 /* Fill 2317.png */; };
+		406452421CE1BFDF00D07272 /* Fill 52342.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452101CE1BFDF00D07272 /* Fill 52342.png */; };
+		406452431CE1BFDF00D07272 /* Filter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452111CE1BFDF00D07272 /* Filter@2x.png */; };
+		406452441CE1BFDF00D07272 /* G roup.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452121CE1BFDF00D07272 /* G roup.png */; };
+		406452451CE1BFDF00D07272 /* Gr   oup 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452131CE1BFDF00D07272 /* Gr   oup 2.png */; };
+		406452461CE1BFDF00D07272 /* Gr  oup 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452141CE1BFDF00D07272 /* Gr  oup 2.png */; };
+		406452471CE1BFDF00D07272 /* Gr o up 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452151CE1BFDF00D07272 /* Gr o up 2.png */; };
+		406452481CE1BFDF00D07272 /* Gr oup 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452161CE1BFDF00D07272 /* Gr oup 12.png */; };
+		406452491CE1BFDF00D07272 /* Gro  up 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452171CE1BFDF00D07272 /* Gro  up 4.png */; };
+		4064524A1CE1BFDF00D07272 /* Gro up 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452181CE1BFDF00D07272 /* Gro up 2.png */; };
+		4064524B1CE1BFDF00D07272 /* Gro up 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452191CE1BFDF00D07272 /* Gro up 3.png */; };
+		4064524C1CE1BFDF00D07272 /* Gro up 5@2x  .png in Resources */ = {isa = PBXBuildFile; fileRef = 4064521A1CE1BFDF00D07272 /* Gro up 5@2x  .png */; };
+		4064524D1CE1BFDF00D07272 /* Gro up 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064521B1CE1BFDF00D07272 /* Gro up 6.png */; };
+		4064524E1CE1BFDF00D07272 /* Gro up.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064521C1CE1BFDF00D07272 /* Gro up.png */; };
+		4064524F1CE1BFDF00D07272 /* Group 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064521D1CE1BFDF00D07272 /* Group 10.png */; };
+		406452501CE1BFDF00D07272 /* Group 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064521E1CE1BFDF00D07272 /* Group 11.png */; };
+		406452511CE1BFDF00D07272 /* Group 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064521F1CE1BFDF00D07272 /* Group 12.png */; };
+		406452521CE1BFDF00D07272 /* Group 13.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452201CE1BFDF00D07272 /* Group 13.png */; };
+		406452531CE1BFDF00D07272 /* Group 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452211CE1BFDF00D07272 /* Group 2.png */; };
+		406452541CE1BFDF00D07272 /* Group 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452221CE1BFDF00D07272 /* Group 3.png */; };
+		406452551CE1BFDF00D07272 /* Group 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452231CE1BFDF00D07272 /* Group 4.png */; };
+		406452561CE1BFDF00D07272 /* Group 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452241CE1BFDF00D07272 /* Group 6.png */; };
+		406452571CE1BFDF00D07272 /* hangout-video.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452251CE1BFDF00D07272 /* hangout-video.png */; };
+		406452581CE1BFDF00D07272 /* Imported Layers 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452261CE1BFDF00D07272 /* Imported Layers 6.png */; };
+		406452591CE1BFDF00D07272 /* male243.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452271CE1BFDF00D07272 /* male243.png */; };
+		4064525A1CE1BFDF00D07272 /* Oval 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452281CE1BFDF00D07272 /* Oval 1.png */; };
+		4064525B1CE1BFDF00D07272 /* Oval 277.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452291CE1BFDF00D07272 /* Oval 277.png */; };
+		4064525C1CE1BFDF00D07272 /* P age 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064522A1CE1BFDF00D07272 /* P age 1.png */; };
+		4064525D1CE1BFDF00D07272 /* per son.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064522B1CE1BFDF00D07272 /* per son.png */; };
+		4064525E1CE1BFDF00D07272 /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064522C1CE1BFDF00D07272 /* person.png */; };
+		4064525F1CE1BFDF00D07272 /* Re ctangle 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064522D1CE1BFDF00D07272 /* Re ctangle 3.png */; };
+		406452601CE1BFDF00D07272 /* Rect ang le 1187.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064522E1CE1BFDF00D07272 /* Rect ang le 1187.png */; };
+		406452611CE1BFDF00D07272 /* Rect angle 1187.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064522F1CE1BFDF00D07272 /* Rect angle 1187.png */; };
+		406452621CE1BFDF00D07272 /* Rectang le 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452301CE1BFDF00D07272 /* Rectang le 3.png */; };
+		406452631CE1BFDF00D07272 /* Rectangle 1187.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452311CE1BFDF00D07272 /* Rectangle 1187.png */; };
+		406452641CE1BFDF00D07272 /* Rectangle 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452321CE1BFDF00D07272 /* Rectangle 3.png */; };
+		406452651CE1BFDF00D07272 /* Rectangle 336.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452331CE1BFDF00D07272 /* Rectangle 336.png */; };
+		406452661CE1BFDF00D07272 /* Search Entry Field Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452341CE1BFDF00D07272 /* Search Entry Field Background@2x.png */; };
+		406452671CE1BFDF00D07272 /* Shap e.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452351CE1BFDF00D07272 /* Shap e.png */; };
+		406452681CE1BFDF00D07272 /* storage.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452361CE1BFDF00D07272 /* storage.png */; };
+		406452691CE1BFDF00D07272 /* timer.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452371CE1BFDF00D07272 /* timer.png */; };
+		4064526A1CE1BFDF00D07272 /* Today Ba ckground.png in Resources */ = {isa = PBXBuildFile; fileRef = 406452381CE1BFDF00D07272 /* Today Ba ckground.png */; };
+		406452701CE1D39200D07272 /* MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4064526E1CE1D39200D07272 /* MainCollectionViewCell.m */; };
+		406452711CE1D39200D07272 /* MainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4064526F1CE1D39200D07272 /* MainCollectionViewCell.xib */; };
+		406452741CE1EBBF00D07272 /* InfomationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406452731CE1EBBF00D07272 /* InfomationViewController.m */; };
+		406452771CE1EBCD00D07272 /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406452761CE1EBCD00D07272 /* PasswordViewController.m */; };
+		40AA08191CEC517C00AA0E1D /* LDCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AA08161CEC517C00AA0E1D /* LDCalendarView.m */; };
+		40AA081A1CEC517C00AA0E1D /* NSDate+extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AA08181CEC517C00AA0E1D /* NSDate+extend.m */; };
+		40AA081D1CEC665B00AA0E1D /* ArrangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AA081C1CEC665B00AA0E1D /* ArrangeView.m */; };
+		40AA081F1CEC667100AA0E1D /* ArrangeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40AA081E1CEC667100AA0E1D /* ArrangeView.xib */; };
+		40D964791CED526F009E54BF /* Group 21.png in Resources */ = {isa = PBXBuildFile; fileRef = 40D964781CED526F009E54BF /* Group 21.png */; };
+		40D9647B1CED568A009E54BF /* Group22.png in Resources */ = {isa = PBXBuildFile; fileRef = 40D9647A1CED568A009E54BF /* Group22.png */; };
+		40DBBA0E1CE974D100309908 /* ReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DBBA0D1CE974D100309908 /* ReportViewController.m */; };
+		40DBBA111CE9752800309908 /* EvaluateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DBBA101CE9752800309908 /* EvaluateViewController.m */; };
+		40DBBA141CE9A4B800309908 /* CALayer+RumtimeAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DBBA131CE9A4B800309908 /* CALayer+RumtimeAttribute.m */; };
+		40DBBA181CE9CCCC00309908 /* ConferenceEvaluationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DBBA161CE9CCCC00309908 /* ConferenceEvaluationTableViewCell.m */; };
+		40DBBA191CE9CCCC00309908 /* ConferenceEvaluationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40DBBA171CE9CCCC00309908 /* ConferenceEvaluationTableViewCell.xib */; };
+		40DBBA1C1CE9D8E800309908 /* ConsultationRoomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DBBA1B1CE9D8E800309908 /* ConsultationRoomTableViewCell.m */; };
+		40DBBA1F1CE9DBE900309908 /* ConsultationRoomDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DBBA1E1CE9DBE900309908 /* ConsultationRoomDetailViewController.m */; };
+		40DBBA221CE9DFC800309908 /* ConsultationRoomSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DBBA211CE9DFC800309908 /* ConsultationRoomSearchView.m */; };
+		40DBBA241CE9DFF400309908 /* ConsultationRoomSearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40DBBA231CE9DFF400309908 /* ConsultationRoomSearch.xib */; };
+		40DDC7ED1CEAECA000BEE082 /* SettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DDC7EC1CEAECA000BEE082 /* SettingView.m */; };
+		40DDC7EF1CEAECB600BEE082 /* SettingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40DDC7EE1CEAECB600BEE082 /* SettingView.xib */; };
+		40DDC7F11CEAF62400BEE082 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DDC7F01CEAF62400BEE082 /* bg.png */; };
+		40E7F1DC1CE468930097972F /* UserAppDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E7F1D91CE468930097972F /* UserAppDetailViewController.m */; };
+		40E7F1DD1CE468930097972F /* UserApplicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E7F1DB1CE468930097972F /* UserApplicationViewController.m */; };
+		40E7F1E81CE468AF0097972F /* ConsultationAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E7F1E31CE468AF0097972F /* ConsultationAppViewController.m */; };
+		40E7F1E91CE468AF0097972F /* PatientInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E7F1E51CE468AF0097972F /* PatientInfoViewController.m */; };
+		40E7F1EF1CE4691C0097972F /* ApplicationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E7F1EE1CE4691C0097972F /* ApplicationTableViewCell.m */; };
+		40E7F1F21CE4778D0097972F /* searchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E7F1F11CE4778D0097972F /* searchView.m */; };
+		40E7F1F41CE477CF0097972F /* searchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E7F1F31CE477CF0097972F /* searchView.xib */; };
+		40E7F1F71CE47EC40097972F /* ConsultationRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E7F1F61CE47EC40097972F /* ConsultationRecordViewController.m */; };
+		40E7F1FA1CE47EEA0097972F /* ConsultationRecordDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E7F1F91CE47EEA0097972F /* ConsultationRecordDetailViewController.m */; };
+		40E7F1FD1CE4824E0097972F /* ConsultationRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E7F1FC1CE4824E0097972F /* ConsultationRecordTableViewCell.m */; };
+		40EDE34A1CE5A87C00096E23 /* ConsultationAppTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EDE3491CE5A87C00096E23 /* ConsultationAppTextTableViewCell.m */; };
+		40EDE34F1CE5C76400096E23 /* Fill 241.png in Resources */ = {isa = PBXBuildFile; fileRef = 40EDE34B1CE5C76400096E23 /* Fill 241.png */; };
+		40EDE3501CE5C76400096E23 /* Group 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 40EDE34C1CE5C76400096E23 /* Group 7.png */; };
+		40EDE3511CE5C76400096E23 /* Group@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40EDE34D1CE5C76400096E23 /* Group@2x.png */; };
+		40EDE3521CE5C76400096E23 /* Oval 270.png in Resources */ = {isa = PBXBuildFile; fileRef = 40EDE34E1CE5C76400096E23 /* Oval 270.png */; };
+		40F54E1F1CEB07690025E2B2 /* VedioSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F54E1E1CEB07690025E2B2 /* VedioSourceViewController.m */; };
+		40F54E221CEB07850025E2B2 /* BaseInfomationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F54E211CEB07850025E2B2 /* BaseInfomationViewController.m */; };
+		40F54E251CEB177F0025E2B2 /* RoomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F54E241CEB177F0025E2B2 /* RoomCollectionViewCell.m */; };
+		5EF8E50A1CE826AC0084C9EF /* UserInfoImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8E5091CE826AC0084C9EF /* UserInfoImageTableViewCell.m */; };
+		5EF8E50D1CE827A00084C9EF /* UserTextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8E50C1CE827A00084C9EF /* UserTextViewTableViewCell.m */; };
+		5EF8E5101CE848540084C9EF /* UserHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8E50F1CE848540084C9EF /* UserHeaderTableViewCell.m */; };
+		5EF8E5131CE84D8D0084C9EF /* ConsultationRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8E5121CE84D8D0084C9EF /* ConsultationRoomViewController.m */; };
+		5EF8E5161CE850050084C9EF /* ConsultationTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8E5151CE850050084C9EF /* ConsultationTimeViewController.m */; };
+		75ABAC5C917DAD5B8DAC0E53 /* libPods-Telemedicine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7930E9B3E1D83A64B80B562 /* libPods-Telemedicine.a */; };
+		8A47A717C983DEB349198116 /* libPods-TelemedicineTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3BA9B75F457477FA837526 /* libPods-TelemedicineTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		406451C61CE1B93600D07272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 406451A11CE1B93500D07272 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 406451A81CE1B93600D07272;
+			remoteInfo = Telemedicine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A774B6F1E85A9E8550521BA /* Pods-TelemedicineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelemedicineTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TelemedicineTests/Pods-TelemedicineTests.release.xcconfig"; sourceTree = "<group>"; };
+		403B70A41CF2E09900B3DD31 /* 1111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1111.png; sourceTree = "<group>"; };
+		4058BEA11CF3F36300373FDB /* LoginHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginHomePageViewController.h; sourceTree = "<group>"; };
+		4058BEA21CF3F36300373FDB /* LoginHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginHomePageViewController.m; sourceTree = "<group>"; };
+		406451A91CE1B93600D07272 /* Telemedicine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telemedicine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		406451AD1CE1B93600D07272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		406451AE1CE1B93600D07272 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		406451B41CE1B93600D07272 /* Telemedicine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Telemedicine.xcdatamodel; sourceTree = "<group>"; };
+		406451BA1CE1B93600D07272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		406451BC1CE1B93600D07272 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		406451BF1CE1B93600D07272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		406451C51CE1B93600D07272 /* TelemedicineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelemedicineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		406451CA1CE1B93600D07272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		406451CB1CE1B93600D07272 /* TelemedicineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelemedicineTests.m; sourceTree = "<group>"; };
+		406451D61CE1BE6900D07272 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		406451D71CE1BE6900D07272 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		406451E61CE1BF3900D07272 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		406451E71CE1BF3900D07272 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		406451E91CE1BF5300D07272 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		406451EA1CE1BF5300D07272 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		406451EE1CE1BF9E00D07272 /* G roup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "G roup.png"; sourceTree = "<group>"; };
+		406451EF1CE1BF9E00D07272 /* Group 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 2.png"; sourceTree = "<group>"; };
+		406451F01CE1BF9E00D07272 /* Group 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 3.png"; sourceTree = "<group>"; };
+		406451F11CE1BF9E00D07272 /* hangout-video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangout-video.png"; sourceTree = "<group>"; };
+		406451F21CE1BF9E00D07272 /* Oval 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 1.png"; sourceTree = "<group>"; };
+		406451F31CE1BF9E00D07272 /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
+		406451F41CE1BF9E00D07272 /* Re ctangle 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Re ctangle 3.png"; sourceTree = "<group>"; };
+		406451F51CE1BF9E00D07272 /* Rectang le 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectang le 3.png"; sourceTree = "<group>"; };
+		406451F61CE1BF9E00D07272 /* Rectangle 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 3.png"; sourceTree = "<group>"; };
+		406451F71CE1BF9E00D07272 /* Shap e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shap e.png"; sourceTree = "<group>"; };
+		406451F81CE1BF9E00D07272 /* storage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storage.png; sourceTree = "<group>"; };
+		406451F91CE1BF9E00D07272 /* timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer.png; sourceTree = "<group>"; };
+		406452071CE1BFDF00D07272 /* End Call Butt on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "End Call Butt on.png"; sourceTree = "<group>"; };
+		406452081CE1BFDF00D07272 /* F ill 2263.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "F ill 2263.png"; sourceTree = "<group>"; };
+		406452091CE1BFDF00D07272 /* F ill 744.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "F ill 744.png"; sourceTree = "<group>"; };
+		4064520A1CE1BFDF00D07272 /* Fill  1445.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fill  1445.png"; sourceTree = "<group>"; };
+		4064520B1CE1BFDF00D07272 /* Fill 1429.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fill 1429.png"; sourceTree = "<group>"; };
+		4064520C1CE1BFDF00D07272 /* Fill 143 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fill 143 1.png"; sourceTree = "<group>"; };
+		4064520D1CE1BFDF00D07272 /* Fill 149.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fill 149.png"; sourceTree = "<group>"; };
+		4064520E1CE1BFDF00D07272 /* Fill 2050.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fill 2050.png"; sourceTree = "<group>"; };
+		4064520F1CE1BFDF00D07272 /* Fill 2317.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fill 2317.png"; sourceTree = "<group>"; };
+		406452101CE1BFDF00D07272 /* Fill 52342.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fill 52342.png"; sourceTree = "<group>"; };
+		406452111CE1BFDF00D07272 /* Filter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Filter@2x.png"; sourceTree = "<group>"; };
+		406452121CE1BFDF00D07272 /* G roup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "G roup.png"; sourceTree = "<group>"; };
+		406452131CE1BFDF00D07272 /* Gr   oup 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gr   oup 2.png"; sourceTree = "<group>"; };
+		406452141CE1BFDF00D07272 /* Gr  oup 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gr  oup 2.png"; sourceTree = "<group>"; };
+		406452151CE1BFDF00D07272 /* Gr o up 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gr o up 2.png"; sourceTree = "<group>"; };
+		406452161CE1BFDF00D07272 /* Gr oup 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gr oup 12.png"; sourceTree = "<group>"; };
+		406452171CE1BFDF00D07272 /* Gro  up 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gro  up 4.png"; sourceTree = "<group>"; };
+		406452181CE1BFDF00D07272 /* Gro up 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gro up 2.png"; sourceTree = "<group>"; };
+		406452191CE1BFDF00D07272 /* Gro up 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gro up 3.png"; sourceTree = "<group>"; };
+		4064521A1CE1BFDF00D07272 /* Gro up 5@2x  .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gro up 5@2x  .png"; sourceTree = "<group>"; };
+		4064521B1CE1BFDF00D07272 /* Gro up 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gro up 6.png"; sourceTree = "<group>"; };
+		4064521C1CE1BFDF00D07272 /* Gro up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gro up.png"; sourceTree = "<group>"; };
+		4064521D1CE1BFDF00D07272 /* Group 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 10.png"; sourceTree = "<group>"; };
+		4064521E1CE1BFDF00D07272 /* Group 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 11.png"; sourceTree = "<group>"; };
+		4064521F1CE1BFDF00D07272 /* Group 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 12.png"; sourceTree = "<group>"; };
+		406452201CE1BFDF00D07272 /* Group 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 13.png"; sourceTree = "<group>"; };
+		406452211CE1BFDF00D07272 /* Group 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 2.png"; sourceTree = "<group>"; };
+		406452221CE1BFDF00D07272 /* Group 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 3.png"; sourceTree = "<group>"; };
+		406452231CE1BFDF00D07272 /* Group 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 4.png"; sourceTree = "<group>"; };
+		406452241CE1BFDF00D07272 /* Group 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 6.png"; sourceTree = "<group>"; };
+		406452251CE1BFDF00D07272 /* hangout-video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangout-video.png"; sourceTree = "<group>"; };
+		406452261CE1BFDF00D07272 /* Imported Layers 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Imported Layers 6.png"; sourceTree = "<group>"; };
+		406452271CE1BFDF00D07272 /* male243.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = male243.png; sourceTree = "<group>"; };
+		406452281CE1BFDF00D07272 /* Oval 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 1.png"; sourceTree = "<group>"; };
+		406452291CE1BFDF00D07272 /* Oval 277.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 277.png"; sourceTree = "<group>"; };
+		4064522A1CE1BFDF00D07272 /* P age 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P age 1.png"; sourceTree = "<group>"; };
+		4064522B1CE1BFDF00D07272 /* per son.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "per son.png"; sourceTree = "<group>"; };
+		4064522C1CE1BFDF00D07272 /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
+		4064522D1CE1BFDF00D07272 /* Re ctangle 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Re ctangle 3.png"; sourceTree = "<group>"; };
+		4064522E1CE1BFDF00D07272 /* Rect ang le 1187.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rect ang le 1187.png"; sourceTree = "<group>"; };
+		4064522F1CE1BFDF00D07272 /* Rect angle 1187.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rect angle 1187.png"; sourceTree = "<group>"; };
+		406452301CE1BFDF00D07272 /* Rectang le 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectang le 3.png"; sourceTree = "<group>"; };
+		406452311CE1BFDF00D07272 /* Rectangle 1187.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 1187.png"; sourceTree = "<group>"; };
+		406452321CE1BFDF00D07272 /* Rectangle 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 3.png"; sourceTree = "<group>"; };
+		406452331CE1BFDF00D07272 /* Rectangle 336.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 336.png"; sourceTree = "<group>"; };
+		406452341CE1BFDF00D07272 /* Search Entry Field Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Search Entry Field Background@2x.png"; sourceTree = "<group>"; };
+		406452351CE1BFDF00D07272 /* Shap e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shap e.png"; sourceTree = "<group>"; };
+		406452361CE1BFDF00D07272 /* storage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storage.png; sourceTree = "<group>"; };
+		406452371CE1BFDF00D07272 /* timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer.png; sourceTree = "<group>"; };
+		406452381CE1BFDF00D07272 /* Today Ba ckground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Today Ba ckground.png"; sourceTree = "<group>"; };
+		4064526B1CE1D21D00D07272 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4064526C1CE1D23900D07272 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		4064526D1CE1D39200D07272 /* MainCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewCell.h; sourceTree = "<group>"; };
+		4064526E1CE1D39200D07272 /* MainCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewCell.m; sourceTree = "<group>"; };
+		4064526F1CE1D39200D07272 /* MainCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainCollectionViewCell.xib; sourceTree = "<group>"; };
+		406452721CE1EBBF00D07272 /* InfomationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfomationViewController.h; sourceTree = "<group>"; };
+		406452731CE1EBBF00D07272 /* InfomationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfomationViewController.m; sourceTree = "<group>"; };
+		406452751CE1EBCD00D07272 /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
+		406452761CE1EBCD00D07272 /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
+		40AA08151CEC517C00AA0E1D /* LDCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDCalendarView.h; sourceTree = "<group>"; };
+		40AA08161CEC517C00AA0E1D /* LDCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDCalendarView.m; sourceTree = "<group>"; };
+		40AA08171CEC517C00AA0E1D /* NSDate+extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+extend.h"; sourceTree = "<group>"; };
+		40AA08181CEC517C00AA0E1D /* NSDate+extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+extend.m"; sourceTree = "<group>"; };
+		40AA081B1CEC665B00AA0E1D /* ArrangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrangeView.h; sourceTree = "<group>"; };
+		40AA081C1CEC665B00AA0E1D /* ArrangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrangeView.m; sourceTree = "<group>"; };
+		40AA081E1CEC667100AA0E1D /* ArrangeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArrangeView.xib; sourceTree = "<group>"; };
+		40D964781CED526F009E54BF /* Group 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 21.png"; sourceTree = "<group>"; };
+		40D9647A1CED568A009E54BF /* Group22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Group22.png; sourceTree = "<group>"; };
+		40DBBA0C1CE974D100309908 /* ReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportViewController.h; sourceTree = "<group>"; };
+		40DBBA0D1CE974D100309908 /* ReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportViewController.m; sourceTree = "<group>"; };
+		40DBBA0F1CE9752800309908 /* EvaluateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvaluateViewController.h; sourceTree = "<group>"; };
+		40DBBA101CE9752800309908 /* EvaluateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvaluateViewController.m; sourceTree = "<group>"; };
+		40DBBA121CE9A4B800309908 /* CALayer+RumtimeAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+RumtimeAttribute.h"; sourceTree = "<group>"; };
+		40DBBA131CE9A4B800309908 /* CALayer+RumtimeAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+RumtimeAttribute.m"; sourceTree = "<group>"; };
+		40DBBA151CE9CCCC00309908 /* ConferenceEvaluationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConferenceEvaluationTableViewCell.h; sourceTree = "<group>"; };
+		40DBBA161CE9CCCC00309908 /* ConferenceEvaluationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConferenceEvaluationTableViewCell.m; sourceTree = "<group>"; };
+		40DBBA171CE9CCCC00309908 /* ConferenceEvaluationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConferenceEvaluationTableViewCell.xib; sourceTree = "<group>"; };
+		40DBBA1A1CE9D8E800309908 /* ConsultationRoomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultationRoomTableViewCell.h; sourceTree = "<group>"; };
+		40DBBA1B1CE9D8E800309908 /* ConsultationRoomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultationRoomTableViewCell.m; sourceTree = "<group>"; };
+		40DBBA1D1CE9DBE900309908 /* ConsultationRoomDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultationRoomDetailViewController.h; sourceTree = "<group>"; };
+		40DBBA1E1CE9DBE900309908 /* ConsultationRoomDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultationRoomDetailViewController.m; sourceTree = "<group>"; };
+		40DBBA201CE9DFC800309908 /* ConsultationRoomSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultationRoomSearchView.h; sourceTree = "<group>"; };
+		40DBBA211CE9DFC800309908 /* ConsultationRoomSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultationRoomSearchView.m; sourceTree = "<group>"; };
+		40DBBA231CE9DFF400309908 /* ConsultationRoomSearch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConsultationRoomSearch.xib; sourceTree = "<group>"; };
+		40DDC7EB1CEAECA000BEE082 /* SettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingView.h; sourceTree = "<group>"; };
+		40DDC7EC1CEAECA000BEE082 /* SettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingView.m; sourceTree = "<group>"; };
+		40DDC7EE1CEAECB600BEE082 /* SettingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingView.xib; sourceTree = "<group>"; };
+		40DDC7F01CEAF62400BEE082 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		40E7F1D81CE468930097972F /* UserAppDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAppDetailViewController.h; sourceTree = "<group>"; };
+		40E7F1D91CE468930097972F /* UserAppDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAppDetailViewController.m; sourceTree = "<group>"; };
+		40E7F1DA1CE468930097972F /* UserApplicationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserApplicationViewController.h; sourceTree = "<group>"; };
+		40E7F1DB1CE468930097972F /* UserApplicationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserApplicationViewController.m; sourceTree = "<group>"; };
+		40E7F1E21CE468AF0097972F /* ConsultationAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultationAppViewController.h; sourceTree = "<group>"; };
+		40E7F1E31CE468AF0097972F /* ConsultationAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultationAppViewController.m; sourceTree = "<group>"; };
+		40E7F1E41CE468AF0097972F /* PatientInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientInfoViewController.h; sourceTree = "<group>"; };
+		40E7F1E51CE468AF0097972F /* PatientInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientInfoViewController.m; sourceTree = "<group>"; };
+		40E7F1ED1CE4691C0097972F /* ApplicationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationTableViewCell.h; sourceTree = "<group>"; };
+		40E7F1EE1CE4691C0097972F /* ApplicationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationTableViewCell.m; sourceTree = "<group>"; };
+		40E7F1F01CE4778D0097972F /* searchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchView.h; sourceTree = "<group>"; };
+		40E7F1F11CE4778D0097972F /* searchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchView.m; sourceTree = "<group>"; };
+		40E7F1F31CE477CF0097972F /* searchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = searchView.xib; sourceTree = "<group>"; };
+		40E7F1F51CE47EC40097972F /* ConsultationRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultationRecordViewController.h; sourceTree = "<group>"; };
+		40E7F1F61CE47EC40097972F /* ConsultationRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultationRecordViewController.m; sourceTree = "<group>"; };
+		40E7F1F81CE47EEA0097972F /* ConsultationRecordDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultationRecordDetailViewController.h; sourceTree = "<group>"; };
+		40E7F1F91CE47EEA0097972F /* ConsultationRecordDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultationRecordDetailViewController.m; sourceTree = "<group>"; };
+		40E7F1FB1CE4824E0097972F /* ConsultationRecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultationRecordTableViewCell.h; sourceTree = "<group>"; };
+		40E7F1FC1CE4824E0097972F /* ConsultationRecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultationRecordTableViewCell.m; sourceTree = "<group>"; };
+		40EDE3481CE5A87C00096E23 /* ConsultationAppTextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultationAppTextTableViewCell.h; sourceTree = "<group>"; };
+		40EDE3491CE5A87C00096E23 /* ConsultationAppTextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultationAppTextTableViewCell.m; sourceTree = "<group>"; };
+		40EDE34B1CE5C76400096E23 /* Fill 241.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fill 241.png"; sourceTree = "<group>"; };
+		40EDE34C1CE5C76400096E23 /* Group 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 7.png"; sourceTree = "<group>"; };
+		40EDE34D1CE5C76400096E23 /* Group@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group@2x.png"; sourceTree = "<group>"; };
+		40EDE34E1CE5C76400096E23 /* Oval 270.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 270.png"; sourceTree = "<group>"; };
+		40F54E1D1CEB07690025E2B2 /* VedioSourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VedioSourceViewController.h; sourceTree = "<group>"; };
+		40F54E1E1CEB07690025E2B2 /* VedioSourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VedioSourceViewController.m; sourceTree = "<group>"; };
+		40F54E201CEB07850025E2B2 /* BaseInfomationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseInfomationViewController.h; sourceTree = "<group>"; };
+		40F54E211CEB07850025E2B2 /* BaseInfomationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseInfomationViewController.m; sourceTree = "<group>"; };
+		40F54E231CEB177F0025E2B2 /* RoomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomCollectionViewCell.h; sourceTree = "<group>"; };
+		40F54E241CEB177F0025E2B2 /* RoomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomCollectionViewCell.m; sourceTree = "<group>"; };
+		4CDEA0FB582C8CA1F419032F /* Pods-Telemedicine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telemedicine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Telemedicine/Pods-Telemedicine.debug.xcconfig"; sourceTree = "<group>"; };
+		5EF8E5081CE826AC0084C9EF /* UserInfoImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoImageTableViewCell.h; sourceTree = "<group>"; };
+		5EF8E5091CE826AC0084C9EF /* UserInfoImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoImageTableViewCell.m; sourceTree = "<group>"; };
+		5EF8E50B1CE827A00084C9EF /* UserTextViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTextViewTableViewCell.h; sourceTree = "<group>"; };
+		5EF8E50C1CE827A00084C9EF /* UserTextViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTextViewTableViewCell.m; sourceTree = "<group>"; };
+		5EF8E50E1CE848540084C9EF /* UserHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserHeaderTableViewCell.h; sourceTree = "<group>"; };
+		5EF8E50F1CE848540084C9EF /* UserHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserHeaderTableViewCell.m; sourceTree = "<group>"; };
+		5EF8E5111CE84D8D0084C9EF /* ConsultationRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultationRoomViewController.h; sourceTree = "<group>"; };
+		5EF8E5121CE84D8D0084C9EF /* ConsultationRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultationRoomViewController.m; sourceTree = "<group>"; };
+		5EF8E5141CE850050084C9EF /* ConsultationTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultationTimeViewController.h; sourceTree = "<group>"; };
+		5EF8E5151CE850050084C9EF /* ConsultationTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultationTimeViewController.m; sourceTree = "<group>"; };
+		7B3BA9B75F457477FA837526 /* libPods-TelemedicineTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TelemedicineTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1E1D4C4EDD59C8127F7C23 /* Pods-Telemedicine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telemedicine.release.xcconfig"; path = "Pods/Target Support Files/Pods-Telemedicine/Pods-Telemedicine.release.xcconfig"; sourceTree = "<group>"; };
+		D40819BF571A57A17488D644 /* Pods-TelemedicineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelemedicineTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TelemedicineTests/Pods-TelemedicineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7930E9B3E1D83A64B80B562 /* libPods-Telemedicine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Telemedicine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		406451A61CE1B93600D07272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75ABAC5C917DAD5B8DAC0E53 /* libPods-Telemedicine.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406451C21CE1B93600D07272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A47A717C983DEB349198116 /* libPods-TelemedicineTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4058BEA01CF3F36300373FDB /* LoginHomePage */ = {
+			isa = PBXGroup;
+			children = (
+				4058BEA11CF3F36300373FDB /* LoginHomePageViewController.h */,
+				4058BEA21CF3F36300373FDB /* LoginHomePageViewController.m */,
+			);
+			path = LoginHomePage;
+			sourceTree = "<group>";
+		};
+		406451A01CE1B93500D07272 = {
+			isa = PBXGroup;
+			children = (
+				406451AB1CE1B93600D07272 /* Telemedicine */,
+				406451C81CE1B93600D07272 /* TelemedicineTests */,
+				406451AA1CE1B93600D07272 /* Products */,
+				7543659A2C67635BEB8BA6CF /* Pods */,
+				BAF1195A2E2CFDD1B0FAE8B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		406451AA1CE1B93600D07272 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				406451A91CE1B93600D07272 /* Telemedicine.app */,
+				406451C51CE1B93600D07272 /* TelemedicineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		406451AB1CE1B93600D07272 /* Telemedicine */ = {
+			isa = PBXGroup;
+			children = (
+				406451D51CE1BE6900D07272 /* AppDelegate */,
+				406451D81CE1BE6900D07272 /* General */,
+				406451D91CE1BE6900D07272 /* Helper */,
+				406451DA1CE1BE6900D07272 /* Resource */,
+				406451DB1CE1BE6900D07272 /* Sections */,
+				406451DC1CE1BE6900D07272 /* Vender */,
+				406451B91CE1B93600D07272 /* Main.storyboard */,
+				406451BC1CE1B93600D07272 /* Images.xcassets */,
+				406451BE1CE1B93600D07272 /* LaunchScreen.xib */,
+				406451B31CE1B93600D07272 /* Telemedicine.xcdatamodeld */,
+				406451AC1CE1B93600D07272 /* Supporting Files */,
+			);
+			path = Telemedicine;
+			sourceTree = "<group>";
+		};
+		406451AC1CE1B93600D07272 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				406451AD1CE1B93600D07272 /* Info.plist */,
+				406451AE1CE1B93600D07272 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		406451C81CE1B93600D07272 /* TelemedicineTests */ = {
+			isa = PBXGroup;
+			children = (
+				406451CB1CE1B93600D07272 /* TelemedicineTests.m */,
+				406451C91CE1B93600D07272 /* Supporting Files */,
+			);
+			path = TelemedicineTests;
+			sourceTree = "<group>";
+		};
+		406451C91CE1B93600D07272 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				406451CA1CE1B93600D07272 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		406451D51CE1BE6900D07272 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				406451D61CE1BE6900D07272 /* AppDelegate.h */,
+				406451D71CE1BE6900D07272 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		406451D81CE1BE6900D07272 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				4064526B1CE1D21D00D07272 /* PrefixHeader.pch */,
+				4064526C1CE1D23900D07272 /* Header.h */,
+				40DBBA121CE9A4B800309908 /* CALayer+RumtimeAttribute.h */,
+				40DBBA131CE9A4B800309908 /* CALayer+RumtimeAttribute.m */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		406451D91CE1BE6900D07272 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		406451DA1CE1BE6900D07272 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				406451EC1CE1BF8F00D07272 /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		406451DB1CE1BE6900D07272 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				4058BEA01CF3F36300373FDB /* LoginHomePage */,
+				40E7F1CB1CE464040097972F /* ConsultationTime */,
+				40E7F1C11CE457C70097972F /* ConsultationApplication */,
+				40E7F1C21CE457C70097972F /* ConsultationRecord */,
+				40E7F1C31CE457C70097972F /* ConsultationRoom */,
+				40E7F1C41CE457C70097972F /* UserApplication */,
+				406451DE1CE1BEFB00D07272 /* HomePage */,
+				406451E21CE1BEFB00D07272 /* UserInfomation */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		406451DC1CE1BE6900D07272 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				40AA08141CEC517C00AA0E1D /* LDCalenderView */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		406451DE1CE1BEFB00D07272 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				406451DF1CE1BEFB00D07272 /* Controller */,
+				406451E01CE1BEFB00D07272 /* Model */,
+				406451E11CE1BEFB00D07272 /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		406451DF1CE1BEFB00D07272 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				406451E61CE1BF3900D07272 /* HomePageViewController.h */,
+				406451E71CE1BF3900D07272 /* HomePageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		406451E01CE1BEFB00D07272 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		406451E11CE1BEFB00D07272 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4064526D1CE1D39200D07272 /* MainCollectionViewCell.h */,
+				4064526E1CE1D39200D07272 /* MainCollectionViewCell.m */,
+				4064526F1CE1D39200D07272 /* MainCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		406451E21CE1BEFB00D07272 /* UserInfomation */ = {
+			isa = PBXGroup;
+			children = (
+				406451E31CE1BEFB00D07272 /* Controller */,
+				406451E41CE1BEFB00D07272 /* Model */,
+				406451E51CE1BEFB00D07272 /* View */,
+			);
+			path = UserInfomation;
+			sourceTree = "<group>";
+		};
+		406451E31CE1BEFB00D07272 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				406451E91CE1BF5300D07272 /* UserInfoViewController.h */,
+				406451EA1CE1BF5300D07272 /* UserInfoViewController.m */,
+				406452721CE1EBBF00D07272 /* InfomationViewController.h */,
+				406452731CE1EBBF00D07272 /* InfomationViewController.m */,
+				406452751CE1EBCD00D07272 /* PasswordViewController.h */,
+				406452761CE1EBCD00D07272 /* PasswordViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		406451E41CE1BEFB00D07272 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		406451E51CE1BEFB00D07272 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5EF8E5081CE826AC0084C9EF /* UserInfoImageTableViewCell.h */,
+				5EF8E5091CE826AC0084C9EF /* UserInfoImageTableViewCell.m */,
+				5EF8E50B1CE827A00084C9EF /* UserTextViewTableViewCell.h */,
+				5EF8E50C1CE827A00084C9EF /* UserTextViewTableViewCell.m */,
+				5EF8E50E1CE848540084C9EF /* UserHeaderTableViewCell.h */,
+				5EF8E50F1CE848540084C9EF /* UserHeaderTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		406451EC1CE1BF8F00D07272 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				406452061CE1BFDF00D07272 /* 切图 2 */,
+				406451ED1CE1BF9E00D07272 /* 切图 */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		406451ED1CE1BF9E00D07272 /* 切图 */ = {
+			isa = PBXGroup;
+			children = (
+				406451EE1CE1BF9E00D07272 /* G roup.png */,
+				406451EF1CE1BF9E00D07272 /* Group 2.png */,
+				406451F01CE1BF9E00D07272 /* Group 3.png */,
+				40D964781CED526F009E54BF /* Group 21.png */,
+				406451F11CE1BF9E00D07272 /* hangout-video.png */,
+				406451F21CE1BF9E00D07272 /* Oval 1.png */,
+				406451F31CE1BF9E00D07272 /* person.png */,
+				406451F41CE1BF9E00D07272 /* Re ctangle 3.png */,
+				406451F51CE1BF9E00D07272 /* Rectang le 3.png */,
+				406451F61CE1BF9E00D07272 /* Rectangle 3.png */,
+				40D9647A1CED568A009E54BF /* Group22.png */,
+				403B70A41CF2E09900B3DD31 /* 1111.png */,
+				406451F71CE1BF9E00D07272 /* Shap e.png */,
+				40EDE34B1CE5C76400096E23 /* Fill 241.png */,
+				40EDE34C1CE5C76400096E23 /* Group 7.png */,
+				40EDE34D1CE5C76400096E23 /* Group@2x.png */,
+				40EDE34E1CE5C76400096E23 /* Oval 270.png */,
+				406451F81CE1BF9E00D07272 /* storage.png */,
+				40DDC7F01CEAF62400BEE082 /* bg.png */,
+				406451F91CE1BF9E00D07272 /* timer.png */,
+			);
+			path = "切图";
+			sourceTree = "<group>";
+		};
+		406452061CE1BFDF00D07272 /* 切图 2 */ = {
+			isa = PBXGroup;
+			children = (
+				406452071CE1BFDF00D07272 /* End Call Butt on.png */,
+				406452081CE1BFDF00D07272 /* F ill 2263.png */,
+				406452091CE1BFDF00D07272 /* F ill 744.png */,
+				4064520A1CE1BFDF00D07272 /* Fill  1445.png */,
+				4064520B1CE1BFDF00D07272 /* Fill 1429.png */,
+				4064520C1CE1BFDF00D07272 /* Fill 143 1.png */,
+				4064520D1CE1BFDF00D07272 /* Fill 149.png */,
+				4064520E1CE1BFDF00D07272 /* Fill 2050.png */,
+				4064520F1CE1BFDF00D07272 /* Fill 2317.png */,
+				406452101CE1BFDF00D07272 /* Fill 52342.png */,
+				406452111CE1BFDF00D07272 /* Filter@2x.png */,
+				406452121CE1BFDF00D07272 /* G roup.png */,
+				406452131CE1BFDF00D07272 /* Gr   oup 2.png */,
+				406452141CE1BFDF00D07272 /* Gr  oup 2.png */,
+				406452151CE1BFDF00D07272 /* Gr o up 2.png */,
+				406452161CE1BFDF00D07272 /* Gr oup 12.png */,
+				406452171CE1BFDF00D07272 /* Gro  up 4.png */,
+				406452181CE1BFDF00D07272 /* Gro up 2.png */,
+				406452191CE1BFDF00D07272 /* Gro up 3.png */,
+				4064521A1CE1BFDF00D07272 /* Gro up 5@2x  .png */,
+				4064521B1CE1BFDF00D07272 /* Gro up 6.png */,
+				4064521C1CE1BFDF00D07272 /* Gro up.png */,
+				4064521D1CE1BFDF00D07272 /* Group 10.png */,
+				4064521E1CE1BFDF00D07272 /* Group 11.png */,
+				4064521F1CE1BFDF00D07272 /* Group 12.png */,
+				406452201CE1BFDF00D07272 /* Group 13.png */,
+				406452211CE1BFDF00D07272 /* Group 2.png */,
+				406452221CE1BFDF00D07272 /* Group 3.png */,
+				406452231CE1BFDF00D07272 /* Group 4.png */,
+				406452241CE1BFDF00D07272 /* Group 6.png */,
+				406452251CE1BFDF00D07272 /* hangout-video.png */,
+				406452261CE1BFDF00D07272 /* Imported Layers 6.png */,
+				406452271CE1BFDF00D07272 /* male243.png */,
+				406452281CE1BFDF00D07272 /* Oval 1.png */,
+				406452291CE1BFDF00D07272 /* Oval 277.png */,
+				4064522A1CE1BFDF00D07272 /* P age 1.png */,
+				4064522B1CE1BFDF00D07272 /* per son.png */,
+				4064522C1CE1BFDF00D07272 /* person.png */,
+				4064522D1CE1BFDF00D07272 /* Re ctangle 3.png */,
+				4064522E1CE1BFDF00D07272 /* Rect ang le 1187.png */,
+				4064522F1CE1BFDF00D07272 /* Rect angle 1187.png */,
+				406452301CE1BFDF00D07272 /* Rectang le 3.png */,
+				406452311CE1BFDF00D07272 /* Rectangle 1187.png */,
+				406452321CE1BFDF00D07272 /* Rectangle 3.png */,
+				406452331CE1BFDF00D07272 /* Rectangle 336.png */,
+				406452341CE1BFDF00D07272 /* Search Entry Field Background@2x.png */,
+				406452351CE1BFDF00D07272 /* Shap e.png */,
+				406452361CE1BFDF00D07272 /* storage.png */,
+				406452371CE1BFDF00D07272 /* timer.png */,
+				406452381CE1BFDF00D07272 /* Today Ba ckground.png */,
+			);
+			name = "切图 2";
+			path = "切图/切图 2";
+			sourceTree = "<group>";
+		};
+		40AA08141CEC517C00AA0E1D /* LDCalenderView */ = {
+			isa = PBXGroup;
+			children = (
+				40AA08151CEC517C00AA0E1D /* LDCalendarView.h */,
+				40AA08161CEC517C00AA0E1D /* LDCalendarView.m */,
+				40AA08171CEC517C00AA0E1D /* NSDate+extend.h */,
+				40AA08181CEC517C00AA0E1D /* NSDate+extend.m */,
+			);
+			name = LDCalenderView;
+			path = ../LDCalenderView;
+			sourceTree = "<group>";
+		};
+		40E7F1C11CE457C70097972F /* ConsultationApplication */ = {
+			isa = PBXGroup;
+			children = (
+				40E7F1E11CE468AF0097972F /* Controller */,
+				40E7F1E61CE468AF0097972F /* Model */,
+				40E7F1E71CE468AF0097972F /* View */,
+			);
+			path = ConsultationApplication;
+			sourceTree = "<group>";
+		};
+		40E7F1C21CE457C70097972F /* ConsultationRecord */ = {
+			isa = PBXGroup;
+			children = (
+				40E7F1EA1CE468B80097972F /* Controller */,
+				40E7F1EB1CE468B80097972F /* Model */,
+				40E7F1EC1CE468B80097972F /* View */,
+			);
+			path = ConsultationRecord;
+			sourceTree = "<group>";
+		};
+		40E7F1C31CE457C70097972F /* ConsultationRoom */ = {
+			isa = PBXGroup;
+			children = (
+				40E7F1D21CE468800097972F /* Controller */,
+				40E7F1D31CE468800097972F /* Model */,
+				40E7F1D41CE468800097972F /* View */,
+			);
+			path = ConsultationRoom;
+			sourceTree = "<group>";
+		};
+		40E7F1C41CE457C70097972F /* UserApplication */ = {
+			isa = PBXGroup;
+			children = (
+				40E7F1D51CE468930097972F /* Model */,
+				40E7F1D61CE468930097972F /* View */,
+				40E7F1D71CE468930097972F /* Controller */,
+			);
+			path = UserApplication;
+			sourceTree = "<group>";
+		};
+		40E7F1CB1CE464040097972F /* ConsultationTime */ = {
+			isa = PBXGroup;
+			children = (
+				40E7F1DE1CE468A60097972F /* Controller */,
+				40E7F1DF1CE468A60097972F /* Model */,
+				40E7F1E01CE468A60097972F /* View */,
+			);
+			path = ConsultationTime;
+			sourceTree = "<group>";
+		};
+		40E7F1D21CE468800097972F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5EF8E5111CE84D8D0084C9EF /* ConsultationRoomViewController.h */,
+				5EF8E5121CE84D8D0084C9EF /* ConsultationRoomViewController.m */,
+				40DBBA1D1CE9DBE900309908 /* ConsultationRoomDetailViewController.h */,
+				40DBBA1E1CE9DBE900309908 /* ConsultationRoomDetailViewController.m */,
+				40F54E1D1CEB07690025E2B2 /* VedioSourceViewController.h */,
+				40F54E1E1CEB07690025E2B2 /* VedioSourceViewController.m */,
+				40F54E201CEB07850025E2B2 /* BaseInfomationViewController.h */,
+				40F54E211CEB07850025E2B2 /* BaseInfomationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40E7F1D31CE468800097972F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40E7F1D41CE468800097972F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40DBBA1A1CE9D8E800309908 /* ConsultationRoomTableViewCell.h */,
+				40DBBA1B1CE9D8E800309908 /* ConsultationRoomTableViewCell.m */,
+				40DBBA201CE9DFC800309908 /* ConsultationRoomSearchView.h */,
+				40DBBA211CE9DFC800309908 /* ConsultationRoomSearchView.m */,
+				40DBBA231CE9DFF400309908 /* ConsultationRoomSearch.xib */,
+				40DDC7EB1CEAECA000BEE082 /* SettingView.h */,
+				40DDC7EC1CEAECA000BEE082 /* SettingView.m */,
+				40DDC7EE1CEAECB600BEE082 /* SettingView.xib */,
+				40F54E231CEB177F0025E2B2 /* RoomCollectionViewCell.h */,
+				40F54E241CEB177F0025E2B2 /* RoomCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40E7F1D51CE468930097972F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40E7F1D61CE468930097972F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40E7F1ED1CE4691C0097972F /* ApplicationTableViewCell.h */,
+				40E7F1EE1CE4691C0097972F /* ApplicationTableViewCell.m */,
+				40E7F1F01CE4778D0097972F /* searchView.h */,
+				40E7F1F11CE4778D0097972F /* searchView.m */,
+				40E7F1F31CE477CF0097972F /* searchView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40E7F1D71CE468930097972F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40E7F1D81CE468930097972F /* UserAppDetailViewController.h */,
+				40E7F1D91CE468930097972F /* UserAppDetailViewController.m */,
+				40E7F1DA1CE468930097972F /* UserApplicationViewController.h */,
+				40E7F1DB1CE468930097972F /* UserApplicationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40E7F1DE1CE468A60097972F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5EF8E5141CE850050084C9EF /* ConsultationTimeViewController.h */,
+				5EF8E5151CE850050084C9EF /* ConsultationTimeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40E7F1DF1CE468A60097972F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40E7F1E01CE468A60097972F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40AA081B1CEC665B00AA0E1D /* ArrangeView.h */,
+				40AA081C1CEC665B00AA0E1D /* ArrangeView.m */,
+				40AA081E1CEC667100AA0E1D /* ArrangeView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40E7F1E11CE468AF0097972F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40E7F1E21CE468AF0097972F /* ConsultationAppViewController.h */,
+				40E7F1E31CE468AF0097972F /* ConsultationAppViewController.m */,
+				40E7F1E41CE468AF0097972F /* PatientInfoViewController.h */,
+				40E7F1E51CE468AF0097972F /* PatientInfoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40E7F1E61CE468AF0097972F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40E7F1E71CE468AF0097972F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40EDE3481CE5A87C00096E23 /* ConsultationAppTextTableViewCell.h */,
+				40EDE3491CE5A87C00096E23 /* ConsultationAppTextTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40E7F1EA1CE468B80097972F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40E7F1F51CE47EC40097972F /* ConsultationRecordViewController.h */,
+				40E7F1F61CE47EC40097972F /* ConsultationRecordViewController.m */,
+				40E7F1F81CE47EEA0097972F /* ConsultationRecordDetailViewController.h */,
+				40E7F1F91CE47EEA0097972F /* ConsultationRecordDetailViewController.m */,
+				40DBBA0C1CE974D100309908 /* ReportViewController.h */,
+				40DBBA0D1CE974D100309908 /* ReportViewController.m */,
+				40DBBA0F1CE9752800309908 /* EvaluateViewController.h */,
+				40DBBA101CE9752800309908 /* EvaluateViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40E7F1EB1CE468B80097972F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40E7F1EC1CE468B80097972F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40E7F1FB1CE4824E0097972F /* ConsultationRecordTableViewCell.h */,
+				40E7F1FC1CE4824E0097972F /* ConsultationRecordTableViewCell.m */,
+				40DBBA151CE9CCCC00309908 /* ConferenceEvaluationTableViewCell.h */,
+				40DBBA161CE9CCCC00309908 /* ConferenceEvaluationTableViewCell.m */,
+				40DBBA171CE9CCCC00309908 /* ConferenceEvaluationTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7543659A2C67635BEB8BA6CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CDEA0FB582C8CA1F419032F /* Pods-Telemedicine.debug.xcconfig */,
+				CD1E1D4C4EDD59C8127F7C23 /* Pods-Telemedicine.release.xcconfig */,
+				D40819BF571A57A17488D644 /* Pods-TelemedicineTests.debug.xcconfig */,
+				2A774B6F1E85A9E8550521BA /* Pods-TelemedicineTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BAF1195A2E2CFDD1B0FAE8B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7930E9B3E1D83A64B80B562 /* libPods-Telemedicine.a */,
+				7B3BA9B75F457477FA837526 /* libPods-TelemedicineTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		406451A81CE1B93600D07272 /* Telemedicine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 406451CF1CE1B93600D07272 /* Build configuration list for PBXNativeTarget "Telemedicine" */;
+			buildPhases = (
+				B0C2766B2DC4E999D706E163 /* 📦 Check Pods Manifest.lock */,
+				406451A51CE1B93600D07272 /* Sources */,
+				406451A61CE1B93600D07272 /* Frameworks */,
+				406451A71CE1B93600D07272 /* Resources */,
+				1BC51018FB1189CC1157113C /* 📦 Embed Pods Frameworks */,
+				0D893398BD855926E8A9097C /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Telemedicine;
+			productName = Telemedicine;
+			productReference = 406451A91CE1B93600D07272 /* Telemedicine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		406451C41CE1B93600D07272 /* TelemedicineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 406451D21CE1B93600D07272 /* Build configuration list for PBXNativeTarget "TelemedicineTests" */;
+			buildPhases = (
+				84C8FFD3ED64A52A231AAF2B /* 📦 Check Pods Manifest.lock */,
+				406451C11CE1B93600D07272 /* Sources */,
+				406451C21CE1B93600D07272 /* Frameworks */,
+				406451C31CE1B93600D07272 /* Resources */,
+				A4586F4C6FFB6254C41361D1 /* 📦 Embed Pods Frameworks */,
+				0D7AB020B98483BE83492D02 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				406451C71CE1B93600D07272 /* PBXTargetDependency */,
+			);
+			name = TelemedicineTests;
+			productName = TelemedicineTests;
+			productReference = 406451C51CE1B93600D07272 /* TelemedicineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		406451A11CE1B93500D07272 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					406451A81CE1B93600D07272 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					406451C41CE1B93600D07272 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 406451A81CE1B93600D07272;
+					};
+				};
+			};
+			buildConfigurationList = 406451A41CE1B93500D07272 /* Build configuration list for PBXProject "Telemedicine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 406451A01CE1B93500D07272;
+			productRefGroup = 406451AA1CE1B93600D07272 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				406451A81CE1B93600D07272 /* Telemedicine */,
+				406451C41CE1B93600D07272 /* TelemedicineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		406451A71CE1B93600D07272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406452561CE1BFDF00D07272 /* Group 6.png in Resources */,
+				406452651CE1BFDF00D07272 /* Rectangle 336.png in Resources */,
+				4064525E1CE1BFDF00D07272 /* person.png in Resources */,
+				40D9647B1CED568A009E54BF /* Group22.png in Resources */,
+				4064525D1CE1BFDF00D07272 /* per son.png in Resources */,
+				406451FE1CE1BF9E00D07272 /* Oval 1.png in Resources */,
+				406452491CE1BFDF00D07272 /* Gro  up 4.png in Resources */,
+				406452041CE1BF9E00D07272 /* storage.png in Resources */,
+				406452011CE1BF9E00D07272 /* Rectang le 3.png in Resources */,
+				406451FC1CE1BF9E00D07272 /* Group 3.png in Resources */,
+				406452601CE1BFDF00D07272 /* Rect ang le 1187.png in Resources */,
+				4064523E1CE1BFDF00D07272 /* Fill 143 1.png in Resources */,
+				40E7F1F41CE477CF0097972F /* searchView.xib in Resources */,
+				40EDE3511CE5C76400096E23 /* Group@2x.png in Resources */,
+				406451BB1CE1B93600D07272 /* Main.storyboard in Resources */,
+				406452511CE1BFDF00D07272 /* Group 12.png in Resources */,
+				406452001CE1BF9E00D07272 /* Re ctangle 3.png in Resources */,
+				406452391CE1BFDF00D07272 /* End Call Butt on.png in Resources */,
+				406452681CE1BFDF00D07272 /* storage.png in Resources */,
+				4064525F1CE1BFDF00D07272 /* Re ctangle 3.png in Resources */,
+				40DDC7EF1CEAECB600BEE082 /* SettingView.xib in Resources */,
+				40DDC7F11CEAF62400BEE082 /* bg.png in Resources */,
+				4064523F1CE1BFDF00D07272 /* Fill 149.png in Resources */,
+				4064524E1CE1BFDF00D07272 /* Gro up.png in Resources */,
+				40AA081F1CEC667100AA0E1D /* ArrangeView.xib in Resources */,
+				406452711CE1D39200D07272 /* MainCollectionViewCell.xib in Resources */,
+				406452671CE1BFDF00D07272 /* Shap e.png in Resources */,
+				4064524D1CE1BFDF00D07272 /* Gro up 6.png in Resources */,
+				40D964791CED526F009E54BF /* Group 21.png in Resources */,
+				406451C01CE1B93600D07272 /* LaunchScreen.xib in Resources */,
+				40DBBA191CE9CCCC00309908 /* ConferenceEvaluationTableViewCell.xib in Resources */,
+				406452021CE1BF9E00D07272 /* Rectangle 3.png in Resources */,
+				40EDE34F1CE5C76400096E23 /* Fill 241.png in Resources */,
+				406452051CE1BF9E00D07272 /* timer.png in Resources */,
+				406452461CE1BFDF00D07272 /* Gr  oup 2.png in Resources */,
+				406452411CE1BFDF00D07272 /* Fill 2317.png in Resources */,
+				4064523A1CE1BFDF00D07272 /* F ill 2263.png in Resources */,
+				406452641CE1BFDF00D07272 /* Rectangle 3.png in Resources */,
+				4064524A1CE1BFDF00D07272 /* Gro up 2.png in Resources */,
+				40DBBA241CE9DFF400309908 /* ConsultationRoomSearch.xib in Resources */,
+				406452691CE1BFDF00D07272 /* timer.png in Resources */,
+				406452471CE1BFDF00D07272 /* Gr o up 2.png in Resources */,
+				40EDE3521CE5C76400096E23 /* Oval 270.png in Resources */,
+				4064523D1CE1BFDF00D07272 /* Fill 1429.png in Resources */,
+				4064525C1CE1BFDF00D07272 /* P age 1.png in Resources */,
+				406452611CE1BFDF00D07272 /* Rect angle 1187.png in Resources */,
+				403B70A51CF2E09900B3DD31 /* 1111.png in Resources */,
+				4064525B1CE1BFDF00D07272 /* Oval 277.png in Resources */,
+				406451FA1CE1BF9E00D07272 /* G roup.png in Resources */,
+				40EDE3501CE5C76400096E23 /* Group 7.png in Resources */,
+				406452631CE1BFDF00D07272 /* Rectangle 1187.png in Resources */,
+				406452031CE1BF9E00D07272 /* Shap e.png in Resources */,
+				406452441CE1BFDF00D07272 /* G roup.png in Resources */,
+				4064524C1CE1BFDF00D07272 /* Gro up 5@2x  .png in Resources */,
+				406451FD1CE1BF9E00D07272 /* hangout-video.png in Resources */,
+				4064523B1CE1BFDF00D07272 /* F ill 744.png in Resources */,
+				406452451CE1BFDF00D07272 /* Gr   oup 2.png in Resources */,
+				406452571CE1BFDF00D07272 /* hangout-video.png in Resources */,
+				406452401CE1BFDF00D07272 /* Fill 2050.png in Resources */,
+				406451FF1CE1BF9E00D07272 /* person.png in Resources */,
+				406452501CE1BFDF00D07272 /* Group 11.png in Resources */,
+				406452481CE1BFDF00D07272 /* Gr oup 12.png in Resources */,
+				406451BD1CE1B93600D07272 /* Images.xcassets in Resources */,
+				4064524B1CE1BFDF00D07272 /* Gro up 3.png in Resources */,
+				406452551CE1BFDF00D07272 /* Group 4.png in Resources */,
+				406452591CE1BFDF00D07272 /* male243.png in Resources */,
+				4064523C1CE1BFDF00D07272 /* Fill  1445.png in Resources */,
+				406451FB1CE1BF9E00D07272 /* Group 2.png in Resources */,
+				406452521CE1BFDF00D07272 /* Group 13.png in Resources */,
+				406452661CE1BFDF00D07272 /* Search Entry Field Background@2x.png in Resources */,
+				4064524F1CE1BFDF00D07272 /* Group 10.png in Resources */,
+				4064526A1CE1BFDF00D07272 /* Today Ba ckground.png in Resources */,
+				406452581CE1BFDF00D07272 /* Imported Layers 6.png in Resources */,
+				406452531CE1BFDF00D07272 /* Group 2.png in Resources */,
+				406452431CE1BFDF00D07272 /* Filter@2x.png in Resources */,
+				406452541CE1BFDF00D07272 /* Group 3.png in Resources */,
+				4064525A1CE1BFDF00D07272 /* Oval 1.png in Resources */,
+				406452621CE1BFDF00D07272 /* Rectang le 3.png in Resources */,
+				406452421CE1BFDF00D07272 /* Fill 52342.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406451C31CE1B93600D07272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D7AB020B98483BE83492D02 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TelemedicineTests/Pods-TelemedicineTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D893398BD855926E8A9097C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Telemedicine/Pods-Telemedicine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BC51018FB1189CC1157113C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Telemedicine/Pods-Telemedicine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84C8FFD3ED64A52A231AAF2B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4586F4C6FFB6254C41361D1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TelemedicineTests/Pods-TelemedicineTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0C2766B2DC4E999D706E163 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		406451A51CE1B93600D07272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DBBA1F1CE9DBE900309908 /* ConsultationRoomDetailViewController.m in Sources */,
+				406451EB1CE1BF5300D07272 /* UserInfoViewController.m in Sources */,
+				406451E81CE1BF3900D07272 /* HomePageViewController.m in Sources */,
+				40E7F1F21CE4778D0097972F /* searchView.m in Sources */,
+				5EF8E50A1CE826AC0084C9EF /* UserInfoImageTableViewCell.m in Sources */,
+				40EDE34A1CE5A87C00096E23 /* ConsultationAppTextTableViewCell.m in Sources */,
+				40E7F1E91CE468AF0097972F /* PatientInfoViewController.m in Sources */,
+				406452741CE1EBBF00D07272 /* InfomationViewController.m in Sources */,
+				40E7F1DC1CE468930097972F /* UserAppDetailViewController.m in Sources */,
+				40F54E221CEB07850025E2B2 /* BaseInfomationViewController.m in Sources */,
+				40E7F1E81CE468AF0097972F /* ConsultationAppViewController.m in Sources */,
+				40E7F1FA1CE47EEA0097972F /* ConsultationRecordDetailViewController.m in Sources */,
+				40E7F1DD1CE468930097972F /* UserApplicationViewController.m in Sources */,
+				40AA08191CEC517C00AA0E1D /* LDCalendarView.m in Sources */,
+				4058BEA31CF3F36300373FDB /* LoginHomePageViewController.m in Sources */,
+				40E7F1EF1CE4691C0097972F /* ApplicationTableViewCell.m in Sources */,
+				406451B51CE1B93600D07272 /* Telemedicine.xcdatamodeld in Sources */,
+				40DBBA221CE9DFC800309908 /* ConsultationRoomSearchView.m in Sources */,
+				40DBBA1C1CE9D8E800309908 /* ConsultationRoomTableViewCell.m in Sources */,
+				40E7F1F71CE47EC40097972F /* ConsultationRecordViewController.m in Sources */,
+				5EF8E5131CE84D8D0084C9EF /* ConsultationRoomViewController.m in Sources */,
+				406451AF1CE1B93600D07272 /* main.m in Sources */,
+				40DDC7ED1CEAECA000BEE082 /* SettingView.m in Sources */,
+				406452771CE1EBCD00D07272 /* PasswordViewController.m in Sources */,
+				40DBBA181CE9CCCC00309908 /* ConferenceEvaluationTableViewCell.m in Sources */,
+				40AA081A1CEC517C00AA0E1D /* NSDate+extend.m in Sources */,
+				5EF8E50D1CE827A00084C9EF /* UserTextViewTableViewCell.m in Sources */,
+				40AA081D1CEC665B00AA0E1D /* ArrangeView.m in Sources */,
+				406451DD1CE1BE6900D07272 /* AppDelegate.m in Sources */,
+				40E7F1FD1CE4824E0097972F /* ConsultationRecordTableViewCell.m in Sources */,
+				40DBBA141CE9A4B800309908 /* CALayer+RumtimeAttribute.m in Sources */,
+				40DBBA0E1CE974D100309908 /* ReportViewController.m in Sources */,
+				40DBBA111CE9752800309908 /* EvaluateViewController.m in Sources */,
+				40F54E251CEB177F0025E2B2 /* RoomCollectionViewCell.m in Sources */,
+				5EF8E5101CE848540084C9EF /* UserHeaderTableViewCell.m in Sources */,
+				40F54E1F1CEB07690025E2B2 /* VedioSourceViewController.m in Sources */,
+				5EF8E5161CE850050084C9EF /* ConsultationTimeViewController.m in Sources */,
+				406452701CE1D39200D07272 /* MainCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406451C11CE1B93600D07272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406451CC1CE1B93600D07272 /* TelemedicineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		406451C71CE1B93600D07272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 406451A81CE1B93600D07272 /* Telemedicine */;
+			targetProxy = 406451C61CE1B93600D07272 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		406451B91CE1B93600D07272 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				406451BA1CE1B93600D07272 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		406451BE1CE1B93600D07272 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				406451BF1CE1B93600D07272 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		406451CD1CE1B93600D07272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		406451CE1CE1B93600D07272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		406451D01CE1B93600D07272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CDEA0FB582C8CA1F419032F /* Pods-Telemedicine.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/rcchina/Desktop/workspace/ycyl_ios/Telemedicine/General/PrefixHeader.pch;
+				INFOPLIST_FILE = Telemedicine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Telemedicine/Vender/lib/CommLibiOS",
+					"$(PROJECT_DIR)/Telemedicine/Vender/lib/libav-11.4/lib",
+					"$(PROJECT_DIR)/Telemedicine/Vender/lib/MediaLibiOS",
+					"$(PROJECT_DIR)/Telemedicine/Vender/lib/speex-1.2rc2/lib",
+					"$(PROJECT_DIR)/Telemedicine/Vender/lib/x264/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		406451D11CE1B93600D07272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD1E1D4C4EDD59C8127F7C23 /* Pods-Telemedicine.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/rcchina/Desktop/workspace/ycyl_ios/Telemedicine/General/PrefixHeader.pch;
+				INFOPLIST_FILE = Telemedicine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Telemedicine/Vender/lib/CommLibiOS",
+					"$(PROJECT_DIR)/Telemedicine/Vender/lib/libav-11.4/lib",
+					"$(PROJECT_DIR)/Telemedicine/Vender/lib/MediaLibiOS",
+					"$(PROJECT_DIR)/Telemedicine/Vender/lib/speex-1.2rc2/lib",
+					"$(PROJECT_DIR)/Telemedicine/Vender/lib/x264/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		406451D31CE1B93600D07272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D40819BF571A57A17488D644 /* Pods-TelemedicineTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TelemedicineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telemedicine.app/Telemedicine";
+			};
+			name = Debug;
+		};
+		406451D41CE1B93600D07272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A774B6F1E85A9E8550521BA /* Pods-TelemedicineTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				INFOPLIST_FILE = TelemedicineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telemedicine.app/Telemedicine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		406451A41CE1B93500D07272 /* Build configuration list for PBXProject "Telemedicine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406451CD1CE1B93600D07272 /* Debug */,
+				406451CE1CE1B93600D07272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		406451CF1CE1B93600D07272 /* Build configuration list for PBXNativeTarget "Telemedicine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406451D01CE1B93600D07272 /* Debug */,
+				406451D11CE1B93600D07272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		406451D21CE1B93600D07272 /* Build configuration list for PBXNativeTarget "TelemedicineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406451D31CE1B93600D07272 /* Debug */,
+				406451D41CE1B93600D07272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		406451B31CE1B93600D07272 /* Telemedicine.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				406451B41CE1B93600D07272 /* Telemedicine.xcdatamodel */,
+			);
+			currentVersion = 406451B41CE1B93600D07272 /* Telemedicine.xcdatamodel */;
+			path = Telemedicine.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 406451A11CE1B93500D07272 /* Project object */;
+}

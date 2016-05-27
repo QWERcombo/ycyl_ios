@@ -1,0 +1,179 @@
+//
+//  InfomationViewController.m
+//  Telemedicine
+//
+//  Created by RCChina on 16/5/10.
+//  Copyright (c) 2016年 Apple. All rights reserved.
+//
+
+#import "InfomationViewController.h"
+#import "UserInfoImageTableViewCell.h"
+#import "UserTextViewTableViewCell.h"
+
+@interface InfomationViewController ()<UITableViewDataSource, UITableViewDelegate, UITextViewDelegate>
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+
+@end
+
+@implementation InfomationViewController
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:YES];
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(10, 0, 15, 20);
+    [button addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+    [button setBackgroundImage:[UIImage imageNamed:@"Fill 241"] forState:UIControlStateNormal];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+}
+
+- (void)back {
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    self.navigationItem.title = @"个人资料";
+    [self.tableView registerNib:[UINib nibWithNibName:@"ImageTableViewCell" bundle:nil] forCellReuseIdentifier:@"Cell"];
+}
+
+#pragma mark - UITableView DataSource & Delegate
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 2;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    if (section == 0) {
+        return 10;
+    } else {
+        return 1;
+    }
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.section == 0) {
+        if (indexPath.row == 0) {
+            UserInfoImageTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"imageCell" forIndexPath:indexPath];
+            return cell;
+        } else {
+            UITableViewCell *cell1 = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+            switch (indexPath.row) {
+                case 1:
+                    cell1.textLabel.text = @"真实姓名";
+                    cell1.detailTextLabel.text = @"Lawrence Johnson";
+                    break;
+                case 2:
+                    cell1.textLabel.text = @"性别";
+                    cell1.detailTextLabel.text = @"男 >";
+                    break;
+                case 3:
+                    cell1.textLabel.text = @"出生日期";
+                    cell1.detailTextLabel.text = @"1990-01-01 >";
+                    break;
+                case 4:
+                    cell1.textLabel.text = @"QQ";
+                    cell1.detailTextLabel.text = @"662788233";
+                    break;
+                case 5:
+                    cell1.textLabel.text = @"手机号";
+                    cell1.detailTextLabel.text = @"18512345678";
+                    break;
+                case 6:
+                    cell1.textLabel.text = @"邮箱";
+                    cell1.detailTextLabel.text = @"2345678@qq.com";
+                    break;
+                case 7:
+                    cell1.textLabel.text = @"医生职称";
+                    cell1.detailTextLabel.text = @"主任医师 >";
+                    break;
+                case 8:
+                    cell1.textLabel.text = @"所属医院";
+                    cell1.detailTextLabel.text = @"北京协和医院 >";
+                    break;
+                default:
+                    cell1.textLabel.text = @"所属科室";
+                    cell1.detailTextLabel.text = @"泌尿外科 >";
+                    break;
+            }
+            return cell1;
+            }
+    } else {
+            UserTextViewTableViewCell *infoCell = [tableView dequeueReusableCellWithIdentifier:@"infoCell" forIndexPath:indexPath];
+        infoCell.textview.delegate = self;
+        infoCell.textview.tag = 1001;
+            infoCell.contentLabel.text = @"请填写您的个人介绍";
+            return infoCell;
+    }
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    if (section == 0) {
+        return 10;
+    } else {
+        return 50;
+    }
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+    return 10;
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    if (section == 1) {
+        return @"个人简介";
+    }
+    return nil;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.section == 1) {
+        return 200;
+    }
+    return 44;
+}
+
+#pragma mark - UITextViewDelegate
+- (BOOL)textViewShouldBeginEditing:(UITextView *)textView {
+    if (textView.tag == 1001) {
+        ((UserTextViewTableViewCell *)textView.superview.superview).contentLabel.hidden = YES;
+    }
+    return YES;
+}
+
+- (void)textViewDidEndEditing:(UITextView *)textView {
+    if (textView.tag == 1001) {
+        ((UserTextViewTableViewCell *)textView.superview.superview).contentLabel.hidden = NO;
+    }
+}
+
+-(BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
+{
+    if ([text isEqualToString:@"\n"])
+    {
+        [textView resignFirstResponder];
+        return NO;
+    }
+    return YES;
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end
