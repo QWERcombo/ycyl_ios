@@ -99,6 +99,8 @@
 		40DBBA1F1CE9DBE900309908 /* ConsultationRoomDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DBBA1E1CE9DBE900309908 /* ConsultationRoomDetailViewController.m */; };
 		40DBBA221CE9DFC800309908 /* ConsultationRoomSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DBBA211CE9DFC800309908 /* ConsultationRoomSearchView.m */; };
 		40DBBA241CE9DFF400309908 /* ConsultationRoomSearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40DBBA231CE9DFF400309908 /* ConsultationRoomSearch.xib */; };
+		40DD5C591CF7F33F0048C0DE /* UserHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DD5C581CF7F33F0048C0DE /* UserHeaderTableViewCell.m */; };
+		40DD5C5C1CF7F38F0048C0DE /* UserTextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DD5C5B1CF7F38F0048C0DE /* UserTextFieldTableViewCell.m */; };
 		40DDC7ED1CEAECA000BEE082 /* SettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DDC7EC1CEAECA000BEE082 /* SettingView.m */; };
 		40DDC7EF1CEAECB600BEE082 /* SettingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40DDC7EE1CEAECB600BEE082 /* SettingView.xib */; };
 		40DDC7F11CEAF62400BEE082 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DDC7F01CEAF62400BEE082 /* bg.png */; };
@@ -122,7 +124,6 @@
 		40F54E251CEB177F0025E2B2 /* RoomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F54E241CEB177F0025E2B2 /* RoomCollectionViewCell.m */; };
 		5EF8E50A1CE826AC0084C9EF /* UserInfoImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8E5091CE826AC0084C9EF /* UserInfoImageTableViewCell.m */; };
 		5EF8E50D1CE827A00084C9EF /* UserTextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8E50C1CE827A00084C9EF /* UserTextViewTableViewCell.m */; };
-		5EF8E5101CE848540084C9EF /* UserHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8E50F1CE848540084C9EF /* UserHeaderTableViewCell.m */; };
 		5EF8E5131CE84D8D0084C9EF /* ConsultationRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8E5121CE84D8D0084C9EF /* ConsultationRoomViewController.m */; };
 		5EF8E5161CE850050084C9EF /* ConsultationTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8E5151CE850050084C9EF /* ConsultationTimeViewController.m */; };
 		75ABAC5C917DAD5B8DAC0E53 /* libPods-Telemedicine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7930E9B3E1D83A64B80B562 /* libPods-Telemedicine.a */; };
@@ -256,6 +257,10 @@
 		40DBBA201CE9DFC800309908 /* ConsultationRoomSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultationRoomSearchView.h; sourceTree = "<group>"; };
 		40DBBA211CE9DFC800309908 /* ConsultationRoomSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultationRoomSearchView.m; sourceTree = "<group>"; };
 		40DBBA231CE9DFF400309908 /* ConsultationRoomSearch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConsultationRoomSearch.xib; sourceTree = "<group>"; };
+		40DD5C571CF7F33F0048C0DE /* UserHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserHeaderTableViewCell.h; sourceTree = "<group>"; };
+		40DD5C581CF7F33F0048C0DE /* UserHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserHeaderTableViewCell.m; sourceTree = "<group>"; };
+		40DD5C5A1CF7F38F0048C0DE /* UserTextFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTextFieldTableViewCell.h; sourceTree = "<group>"; };
+		40DD5C5B1CF7F38F0048C0DE /* UserTextFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTextFieldTableViewCell.m; sourceTree = "<group>"; };
 		40DDC7EB1CEAECA000BEE082 /* SettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingView.h; sourceTree = "<group>"; };
 		40DDC7EC1CEAECA000BEE082 /* SettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingView.m; sourceTree = "<group>"; };
 		40DDC7EE1CEAECB600BEE082 /* SettingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingView.xib; sourceTree = "<group>"; };
@@ -296,8 +301,6 @@
 		5EF8E5091CE826AC0084C9EF /* UserInfoImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoImageTableViewCell.m; sourceTree = "<group>"; };
 		5EF8E50B1CE827A00084C9EF /* UserTextViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTextViewTableViewCell.h; sourceTree = "<group>"; };
 		5EF8E50C1CE827A00084C9EF /* UserTextViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTextViewTableViewCell.m; sourceTree = "<group>"; };
-		5EF8E50E1CE848540084C9EF /* UserHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserHeaderTableViewCell.h; sourceTree = "<group>"; };
-		5EF8E50F1CE848540084C9EF /* UserHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserHeaderTableViewCell.m; sourceTree = "<group>"; };
 		5EF8E5111CE84D8D0084C9EF /* ConsultationRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultationRoomViewController.h; sourceTree = "<group>"; };
 		5EF8E5121CE84D8D0084C9EF /* ConsultationRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultationRoomViewController.m; sourceTree = "<group>"; };
 		5EF8E5141CE850050084C9EF /* ConsultationTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultationTimeViewController.h; sourceTree = "<group>"; };
@@ -532,8 +535,8 @@
 				5EF8E5091CE826AC0084C9EF /* UserInfoImageTableViewCell.m */,
 				5EF8E50B1CE827A00084C9EF /* UserTextViewTableViewCell.h */,
 				5EF8E50C1CE827A00084C9EF /* UserTextViewTableViewCell.m */,
-				5EF8E50E1CE848540084C9EF /* UserHeaderTableViewCell.h */,
-				5EF8E50F1CE848540084C9EF /* UserHeaderTableViewCell.m */,
+				40DD5C5A1CF7F38F0048C0DE /* UserTextFieldTableViewCell.h */,
+				40DD5C5B1CF7F38F0048C0DE /* UserTextFieldTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -810,6 +813,8 @@
 		40E7F1E71CE468AF0097972F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				40DD5C571CF7F33F0048C0DE /* UserHeaderTableViewCell.h */,
+				40DD5C581CF7F33F0048C0DE /* UserHeaderTableViewCell.m */,
 				40EDE3481CE5A87C00096E23 /* ConsultationAppTextTableViewCell.h */,
 				40EDE3491CE5A87C00096E23 /* ConsultationAppTextTableViewCell.m */,
 			);
@@ -1156,6 +1161,7 @@
 				40E7F1DC1CE468930097972F /* UserAppDetailViewController.m in Sources */,
 				40F54E221CEB07850025E2B2 /* BaseInfomationViewController.m in Sources */,
 				40E7F1E81CE468AF0097972F /* ConsultationAppViewController.m in Sources */,
+				40DD5C591CF7F33F0048C0DE /* UserHeaderTableViewCell.m in Sources */,
 				40E7F1FA1CE47EEA0097972F /* ConsultationRecordDetailViewController.m in Sources */,
 				40E7F1DD1CE468930097972F /* UserApplicationViewController.m in Sources */,
 				40AA08191CEC517C00AA0E1D /* LDCalendarView.m in Sources */,
@@ -1169,6 +1175,7 @@
 				406451AF1CE1B93600D07272 /* main.m in Sources */,
 				40DDC7ED1CEAECA000BEE082 /* SettingView.m in Sources */,
 				406452771CE1EBCD00D07272 /* PasswordViewController.m in Sources */,
+				40DD5C5C1CF7F38F0048C0DE /* UserTextFieldTableViewCell.m in Sources */,
 				40DBBA181CE9CCCC00309908 /* ConferenceEvaluationTableViewCell.m in Sources */,
 				40AA081A1CEC517C00AA0E1D /* NSDate+extend.m in Sources */,
 				5EF8E50D1CE827A00084C9EF /* UserTextViewTableViewCell.m in Sources */,
@@ -1179,7 +1186,6 @@
 				40DBBA0E1CE974D100309908 /* ReportViewController.m in Sources */,
 				40DBBA111CE9752800309908 /* EvaluateViewController.m in Sources */,
 				40F54E251CEB177F0025E2B2 /* RoomCollectionViewCell.m in Sources */,
-				5EF8E5101CE848540084C9EF /* UserHeaderTableViewCell.m in Sources */,
 				40F54E1F1CEB07690025E2B2 /* VedioSourceViewController.m in Sources */,
 				5EF8E5161CE850050084C9EF /* ConsultationTimeViewController.m in Sources */,
 				406452701CE1D39200D07272 /* MainCollectionViewCell.m in Sources */,

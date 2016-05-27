@@ -103,19 +103,14 @@
                 [self presentViewController:navigation animated:YES completion:nil];
         }
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        MyLog(@"%@", error);
-        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:[NSString stringWithFormat:@"%ld", error.code] preferredStyle:UIAlertControllerStyleAlert];
-        UIAlertAction *confirm = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:nil];
-        [alert addAction:confirm];
-        [self presentViewController:alert animated:YES completion:nil];
+        MyLog(@">>>>>>>>>>>>>>>>%@", error);
+        [self showAlertWithString:[NSString stringWithFormat:@"%ld", error.code]];
     }];
 }
 
 - (void)showAlertWithString:(NSString *)string {
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:string preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
     UIAlertAction *confirm = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:nil];
-    [alert addAction:cancel];
     [alert addAction:confirm];
     [self presentViewController:alert animated:YES completion:nil];
 }

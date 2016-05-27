@@ -13,10 +13,25 @@
 
 @interface ConsultationAppViewController ()<UITableViewDataSource, UITableViewDelegate, UITextViewDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
-
+@property (nonatomic, strong) NSArray *dataSourceLeft;
+@property (nonatomic, strong) NSArray *dataSourceRight;
 @end
 
 @implementation ConsultationAppViewController
+
+- (NSArray *)dataSourceLeft {
+    if (_dataSourceLeft == nil) {
+        self.dataSourceLeft = [NSArray array];
+    }
+    return _dataSourceLeft;
+}
+
+- (NSArray *)dataSourceRight {
+    if (_dataSourceRight == nil) {
+        self.dataSourceRight = [NSArray array];
+    }
+    return _dataSourceRight;
+}
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:YES];
@@ -38,6 +53,8 @@
     self.navigationItem.title = @"会诊申请";
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"取消" style:UIBarButtonItemStylePlain target:self action:@selector(cancel)];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"申请" style:UIBarButtonItemStylePlain target:self action:@selector(done)];
+    self.dataSourceLeft = [NSArray arrayWithObjects:@"申请人", @"申请方", @"接收人", @"就诊科室", @"服务类型", @"期望专家", @"期望日期", nil];
+    self.dataSourceRight = [NSArray arrayWithObjects:@"管理员", @"北京协和医院", @"李四", @"泌尿外科", @"会诊", @"王五", @"2016-05-01", nil];
 }
 
 - (void)cancel {
@@ -56,7 +73,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     if (section == 1) {
-        return 6;
+        return self.dataSourceRight.count;
     } else {
         return 1;
     }
@@ -70,36 +87,8 @@
         return cell;
     } else if (indexPath.section == 1) {
         UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
-        switch (indexPath.row) {
-            case 0:
-                cell.textLabel.text = @"申请人";
-                cell.detailTextLabel.text = @"管理员";
-                break;
-            case 1:
-                cell.textLabel.text = @"申请方";
-                cell.detailTextLabel.text = @"北京协和医院";
-                break;
-            case 2:
-                cell.textLabel.text = @"接收人";
-                cell.detailTextLabel.text = @"李四";
-                break;
-            case 3:
-                cell.textLabel.text = @"就诊科室";
-                cell.detailTextLabel.text = @"泌尿外科";
-                break;
-            case 4:
-                cell.textLabel.text = @"服务类型";
-                cell.detailTextLabel.text = @"会诊";
-                break;
-            case 5:
-                cell.textLabel.text = @"期望专家";
-                cell.detailTextLabel.text = @"王五";
-                break;
-            default:
-                cell.textLabel.text = @"期望日期";
-                cell.detailTextLabel.text = @"2016-05-01";
-                break;
-        }
+        cell.textLabel.text = self.dataSourceLeft[indexPath.row];
+        cell.detailTextLabel.text = self.dataSourceRight[indexPath.row];
         return cell;
     } else if (indexPath.section == 2 || indexPath.section == 3){
         ConsultationAppTextTableViewCell *textCell = [tableView dequeueReusableCellWithIdentifier:@"textcell" forIndexPath:indexPath];

@@ -22,6 +22,8 @@
 @property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) NSUserDefaults *userDefaults;
 @property (nonatomic, assign) NSInteger user_role;
+@property (nonatomic, strong) NSArray *user_role2, *user_role3, *user_role4, *user_roleTest;
+@property (nonatomic, strong) NSArray *imageArr2, *imageArr3, *imageArr4, *imageTest;
 @end
 
 @implementation HomePageViewController
@@ -48,8 +50,17 @@
     [super viewDidLoad];
     [self createCollection];
     self.view.backgroundColor = [UIColor lightTextColor];
+    self.user_role2 = [NSArray arrayWithObjects:@"会诊室", @"会诊记录", @"个人中心", @"", nil];
+    self.user_role3 = [NSArray arrayWithObjects:@"会诊申请", @"我的申请", @"会诊室", @"会诊记录", @"个人中心", @"", nil];
+    self.user_role4 = [NSArray arrayWithObjects:@"我的申请", @"会诊室", @"会诊记录", @"会诊时刻表", @"个人中心", @"", nil];
+    self.user_roleTest = [NSArray arrayWithObjects:@"会诊申请", @"我的申请", @"会诊室", @"会诊记录", @"会诊时刻表", @"个人中心",nil];
+    
+    self.imageArr2 = [NSArray arrayWithObjects:@"hangout-video", @"storage", @"person", @"", nil];
+    self.imageArr3 = [NSArray arrayWithObjects:@"Group 3", @"Shap e", @"hangout-video", @"storage", @"person", @"", nil];
+    self.imageArr4 = [NSArray arrayWithObjects:@"Shap e", @"hangout-video", @"storage", @"timer", @"person", @"", nil];
+    self.imageTest = [NSArray arrayWithObjects:@"Group 3", @"Shap e", @"hangout-video", @"storage", @"timer", @"person", nil];
     self.user_role = [[self.userDefaults objectForKey:@"userinfo"][@"user_role"] integerValue];
-    //self.user_role = 2;
+    //self.user_role = 5;
 }
 
 - (void)createCollection {
@@ -70,22 +81,22 @@
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     switch (self.user_role) {
         case 2:
-            return 3;
+            return self.user_role2.count;
             break;
         case 3:
-            return 5;
+            return self.user_role3.count;
             break;
         case 4:
-            return 5;
+            return self.user_role4.count;
             break;
         case 5:
-            return 1;
+            return 2;
             break;
         case 6:
-            return 1;
+            return 2;
             break;
         default:
-            return 6;
+            return self.user_roleTest.count;
             break;
     }
 }
@@ -93,98 +104,33 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     MainCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
     if (self.user_role == 2) {
-        switch (indexPath.row) {
-            case 0:
-                cell.topImage.image = [UIImage imageNamed:@"hangout-video"];
-                cell.titleLabel.text = @"会诊室";
-                break;
-            case 1:
-                cell.topImage.image = [UIImage imageNamed:@"storage"];
-                cell.titleLabel.text = @"会诊记录";
-                break;
-            default:
-                cell.topImage.image = [UIImage imageNamed:@"person"];
-                cell.titleLabel.text = @"个人中心";
-                break;
-        }
+        cell.titleLabel.text = self.user_role2[indexPath.row];
+        cell.topImage.image = [UIImage imageNamed:self.imageArr2[indexPath.row]];
+        cell.backgroundColor = [UIColor whiteColor];
+        return cell;
     }
-    
     if (self.user_role == 3) {
-        switch (indexPath.row) {
-            case 0:
-                cell.topImage.image = [UIImage imageNamed:@"Group 3"];
-                cell.titleLabel.text = @"会诊申请";
-                break;
-            case 1:
-                cell.topImage.image = [UIImage imageNamed:@"Shap e"];
-                cell.titleLabel.text = @"我的申请";
-                break;
-            case 2:
-                cell.topImage.image = [UIImage imageNamed:@"hangout-video"];
-                cell.titleLabel.text = @"会诊室";
-                break;
-            case 3:
-                cell.topImage.image = [UIImage imageNamed:@"storage"];
-                cell.titleLabel.text = @"会诊记录";
-                break;
-            default:
-                cell.topImage.image = [UIImage imageNamed:@"person"];
-                cell.titleLabel.text = @"个人中心";
-                break;
-        }
+        cell.titleLabel.text = self.user_role3[indexPath.row];
+        cell.topImage.image = [UIImage imageNamed:self.imageArr3[indexPath.row]];
+        cell.backgroundColor = [UIColor whiteColor];
+        return cell;
     }
     if (self.user_role == 4) {
-        switch (indexPath.row) {
-            case 0:
-                cell.topImage.image = [UIImage imageNamed:@"Shap e"];
-                cell.titleLabel.text = @"我的申请";
-                break;
-            case 1:
-                cell.topImage.image = [UIImage imageNamed:@"hangout-video"];
-                cell.titleLabel.text = @"会诊室";
-                break;
-            case 2:
-                cell.topImage.image = [UIImage imageNamed:@"storage"];
-                cell.titleLabel.text = @"会诊记录";
-                break;
-            case 3:
-                cell.topImage.image = [UIImage imageNamed:@"timer"];
-                cell.titleLabel.text = @"会诊时刻表";
-                break;
-            default:
-                cell.topImage.image = [UIImage imageNamed:@"person"];
-                cell.titleLabel.text = @"个人中心";
-            break;
-        }
+        cell.titleLabel.text = self.user_role4[indexPath.row];
+        cell.topImage.image = [UIImage imageNamed:self.imageArr4[indexPath.row]];
+        cell.backgroundColor = [UIColor whiteColor];
+        return cell;
     }
-    //cell.topImage.image = [UIImage imageNamed:@"hangout-video"];
-    //cell.titleLabel.text = @"会诊室";
-    switch (indexPath.row) {
-        case 0:
-            cell.topImage.image = [UIImage imageNamed:@"Group 3"];
-            cell.titleLabel.text = @"会诊申请";
-            break;
-        case 1:
-            cell.topImage.image = [UIImage imageNamed:@"Shap e"];
-            cell.titleLabel.text = @"我的申请";
-            break;
-        case 2:
+    if (self.user_role == 5 || self.user_role == 6) {
+        if (indexPath.row == 0) {
             cell.topImage.image = [UIImage imageNamed:@"hangout-video"];
             cell.titleLabel.text = @"会诊室";
-            break;
-        case 3:
-            cell.topImage.image = [UIImage imageNamed:@"storage"];
-            cell.titleLabel.text = @"会诊记录";
-            break;
-        case 4:
-            cell.topImage.image = [UIImage imageNamed:@"timer"];
-            cell.titleLabel.text = @"会诊时刻表";
-            break;
-        default:
-            cell.topImage.image = [UIImage imageNamed:@"person"];
-            cell.titleLabel.text = @"个人中心";
-            break;
+        }
+        cell.backgroundColor = [UIColor whiteColor];
+        return cell;
     }
+    cell.titleLabel.text = self.user_roleTest[indexPath.row];
+    cell.topImage.image = [UIImage imageNamed:self.imageTest[indexPath.row]];
     cell.backgroundColor = [UIColor whiteColor];
     return cell;
 }
@@ -208,7 +154,7 @@
             case 1:
                 [self.navigationController pushViewController:consultationRecordVC animated:YES];
                 break;
-            default:
+            case 2:
                 [self.navigationController pushViewController:userVC animated:YES];
                 break;
         }
@@ -229,7 +175,7 @@
             case 3:
                 [self.navigationController pushViewController:consultationRecordVC animated:YES];
                 break;
-            default:
+            case 4:
                 [self.navigationController pushViewController:userVC animated:YES];
                 break;
         }
@@ -249,13 +195,18 @@
             case 3:
                 [self.navigationController pushViewController:consultationTimeVC animated:YES];
                 break;
-            default:
+            case 4:
                 [self.navigationController pushViewController:userVC animated:YES];
                 break;
         }
         return;
     }
-//    [self.navigationController pushViewController:consultationRoomVC animated:YES];
+    if (self.user_role == 5 || self.user_role == 6) {
+        if (indexPath.row == 0) {
+            [self.navigationController pushViewController:consultationRoomVC animated:YES];
+        }
+        return;
+    }
     switch (indexPath.row) {
         case 0:
             [self.navigationController pushViewController:consultationVC animated:YES];

@@ -26,6 +26,13 @@
 #define KDUrlLogout @"/app/login/dologout"
 //修改密码
 #define KDUrlChangePassword @"/app/usercenter/updatepassword"
+//获取医生职称
+#define KDUrlGetgrade @"/app/usercenter/getgrade"
+//获取所属医院
+#define KDUrlGethospital @"app/usercenter/gethospital"
+//获取所属科室
+#define KDUrlGetdept @"app/usercenter/getdept"
+
 
 
 #import "AFNetworking.h"

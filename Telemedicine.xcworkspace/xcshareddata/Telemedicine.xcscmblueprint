@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CBA53245FD3EE2DF2F02A142CCF9F68FBA5DDE4C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "CBA53245FD3EE2DF2F02A142CCF9F68FBA5DDE4C" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CBA53245FD3EE2DF2F02A142CCF9F68FBA5DDE4C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E15F019C-DA21-45A5-ADD0-608D1A91C6DA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CBA53245FD3EE2DF2F02A142CCF9F68FBA5DDE4C" : "ycyl_ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Telemedicine",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Telemedicine.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/180.153.52.221",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CBA53245FD3EE2DF2F02A142CCF9F68FBA5DDE4C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/QWERcombo\/ycyl_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CBA53245FD3EE2DF2F02A142CCF9F68FBA5DDE4C"
+    }
+  ]
+}
